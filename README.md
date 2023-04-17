@@ -33,3 +33,26 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 ---
 
 Happy coding!
+
+# Install program in gitpod and codeanywhere
+
+pip3 install 'django<4' gunicorn
+pip3 install dj_database_url psycopg2
+pip3 install dj3-cloudinary-storage
+pip3 install django-allauth
+pip3 install django-crispy-forms
+pip3 install django-summernote
+
+
+## Terminal code to remeber
+
+python3 manage.py migrate
+python3 manage.py runserver
+
+# For env.py
+
+import os
+
+os.environ["DATABASE_URL"] = "Paste in ElephantSQL database URL"
+os.environ["SECRET_KEY"] = "Make up your own randomSecretKey"
+os.environ["CLOUDINARY_URL"] = "cloudinary://************************"
