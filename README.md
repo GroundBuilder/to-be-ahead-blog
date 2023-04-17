@@ -46,6 +46,10 @@ pip3 install django-summernote
 
 ## Terminal code to remeber
 
+
+python3 manage.py makemigrations --dry-run
+python3 manage.py showmigrations
+python3 manage.py makemigrations
 python3 manage.py migrate
 python3 manage.py runserver
 
