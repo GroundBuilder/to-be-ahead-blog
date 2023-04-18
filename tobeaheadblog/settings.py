@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
-    'everydayblog'
+    'everydayblog',
 ]
 
 MIDDLEWARE = [
@@ -136,7 +136,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
-STATOC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATOC_ROOT = os.path.join(BASE_DIR, 'staticfiles') # Not for use now.
 
 MEDIA_URL = '/media/'
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
