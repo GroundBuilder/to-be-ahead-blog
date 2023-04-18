@@ -40,6 +40,8 @@ README Table Content
 
 ## Design
 
+![Colours Palete](docs/readme_images/colors_tobeahead.png)<br>
+
 
 ## Features
 
