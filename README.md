@@ -212,6 +212,7 @@ to copy the URL
 
 * [W3Schools - Python](https://www.w3schools.com/python/)
 * [Stack Overflow](https://stackoverflow.com/)
+* [Django](https://docs.djangoproject.com/en/4.2/)
 
 ## Special Thanks
 
