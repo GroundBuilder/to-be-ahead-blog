@@ -35,7 +35,7 @@ DEBUG = True
 # Toggle this one below when deploy and go to Heroku and delete the DISABLE_COLLECTSTATIC in Vars.
 # X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['to-be-ahead-blog.herokuapp.com', '8000-groundbuilder-to-be-ahea-3t49okoap2.us2.codeanyapp.com', 'localhost']
+ALLOWED_HOSTS = ['to-be-ahead-blog.herokuapp.com', '8000-groundbuilder-to-be-ahea-3t49okoap2.us2.codeanyapp.com', 'localhost', 'https://groundbuilder-to-be-ahea-3t49okoap2.us2.codeanyapp.com:8000/']
 
 
 # Application definition
