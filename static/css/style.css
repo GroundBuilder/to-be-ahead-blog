@@ -1,7 +1,10 @@
+/*** Override color bootstrap ***/
 :root{
     --col-main: #bbd8ba;
     --col-main: #7b897a;
 }
+
+/*** End override ***/
 
 body {
     background-color: #bbd8ba;
