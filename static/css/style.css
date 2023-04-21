@@ -1,15 +1,14 @@
-/*** Override color bootstrap ***/
+/*** Customize color bootstrap ***/
 :root{
     --col-main: #bbd8ba;
     --col-main: #7b897a;
 }
 
-/*** End override ***/
+/*** End Customize ***/
 
 body {
     background-color: #bbd8ba;
 }
-
 
 /*** Footer ***/
 
