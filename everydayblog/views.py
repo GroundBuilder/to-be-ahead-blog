@@ -5,7 +5,7 @@ from .models import Post
 
 class PostList(generic.ListView):
     model = Post
-    queryset = Post.objects.filter(status='d').order_by('created_on')
+    queryset = Post.objects.filter(status='p').order_by('created_on')
     template_name = 'index.html'
     paginate_by = 3
 
@@ -13,7 +13,14 @@ class PostList(generic.ListView):
 class PostDetail(View):
 
     def get(self, request, slug, *args, **kwargs):
-        queryset = Post.objects.filter(status='d')
+        queryset = Post.objects.filter(status='p')
         post = get_object_or_404(queryset, slug=slug)
         comments = post.comments.filter(approved=True).order_by('-created_on')
         liked = False
+
+
+# class PostListPublic(generic.ListView):
+#     model = Post
+#     queryset = Post.objects.filter(status='o').order_by('created_on')
+#     template_name = 'public.html'
+#     paginate_by = 3
