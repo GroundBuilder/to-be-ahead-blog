@@ -251,6 +251,7 @@ python3 manage.py showmigrations <br>
 python3 manage.py makemigrations <br>
 python3 manage.py migrate <br>
 python3 manage.py runserver <br>
+pip install fontawesomefree <br>
 
 # For env.py
 
