@@ -16,29 +16,29 @@
     position: relative;
 }
 
+
 .hero-text {
     background-color: rgba(241, 109, 107, .7);
     position: absolute;
-    height: 30px;
+    height: 60vh;
     width: fit-content;
-    padding-top: 40px;
-    padding-left: 10px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
     inset: 0;
     margin: auto;
 }
+
 
 #cover-text {
     font-size: 130%;
     font-family: Dosis, sans-serif;
     letter-spacing: 4px;
-    width: 300px;
     height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
     bottom: 30px;
     right: 150px;
-
+    position: absolute;
 }
+
 
 /*** End Hero Placeholder ***/
 
