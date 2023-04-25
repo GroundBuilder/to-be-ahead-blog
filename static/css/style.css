@@ -6,12 +6,47 @@
 
 /*** End Customize ***/
 
+/*** Hero Placeholder ***/
+#hero-container{
+    height: 60vh;
+    background-image: url("https://groundbuilder.github.io/to-be-ahead/assets/images/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-text {
+    background-color: rgba(241, 109, 107, .7);
+    position: absolute;
+    height: 30px;
+    width: fit-content;
+    padding-top: 40px;
+    padding-left: 10px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    inset: 0;
+    margin: auto;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Dosis, sans-serif;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
+    bottom: 30px;
+    right: 150px;
+
+}
+
+/*** End Hero Placeholder ***/
+
 body {
     background-color: #bbd8ba;
 }
 
 /*** Footer ***/
-
 .footer {
     background-color: #7b897a;
     padding: 0.5rem;
