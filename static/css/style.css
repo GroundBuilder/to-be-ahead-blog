@@ -6,9 +6,14 @@
 
 /*** End Customize ***/
 
+h1, h2 {
+    text-transform: uppercase;
+}
+
+
 /*** Hero Placeholder ***/
 #hero-container{
-    height: 60vh;
+    height: 40vh;
     background-image: url("https://groundbuilder.github.io/to-be-ahead/assets/images/background-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,10 +25,15 @@
 .hero-text {
     background-color: rgba(241, 109, 107, .7);
     position: absolute;
-    height: 60vh;
+    height: 15vh;
     width: fit-content;
     inset: 0;
+    /* padding-top: 40px;
+    padding-left: 10px; */
+    padding: 40px, 10px, 10px, 10px;
     margin: auto;
+    letter-spacing: 4px;
+
 }
 
 
