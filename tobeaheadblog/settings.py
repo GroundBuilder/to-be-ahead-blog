@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'django_summernote',
     'fontawesomefree',
     'crispy_forms',
+    'crispy_bootstrap5',
     'everydayblog',
     
 ]
@@ -63,6 +64,9 @@ SITE_ID = 1
 
 LOGIN_REDIRECT_URL = '/'    # Brings me back to home page
 LOGOUT_REDIRECT_URL = '/'   # Brings me back to home page
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

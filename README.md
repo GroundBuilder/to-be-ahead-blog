@@ -240,6 +240,7 @@ pip3 install django-allauth <br>
 pip3 install django-crispy-forms <br>
 pip3 install django-summernote <br>
 pip3 install django-allauth <br>
+pip install crispy-bootstrap5
 
 pip3 freeze > requirements.txt <br>
 
