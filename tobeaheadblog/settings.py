@@ -59,6 +59,11 @@ INSTALLED_APPS = [
     
 ]
 
+SITE_ID = 1
+
+LOGIN_REDIRECT_URL = '/'    # Brings me back to home page
+LOGOUT_REDIRECT_URL = '/'   # Brings me back to home page
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
