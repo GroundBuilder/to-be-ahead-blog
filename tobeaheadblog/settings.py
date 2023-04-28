@@ -51,7 +51,9 @@ INSTALLED_APPS = [
     'cloudinary',
     'django_summernote',
     'fontawesomefree',
+    'crispy_forms',
     'everydayblog',
+    
 ]
 
 MIDDLEWARE = [
