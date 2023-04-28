@@ -1,25 +1,28 @@
 {% extends "base.html" %}{% block content %}
 {% load static %}
 
-<div class="masthead">
-    <div class="container">
+<div class="container">
+    <div class="card mb-3" style="max-width: 900px;">
         <div class="row g-0">
-            <div class="col-md-6 masthead-text">
-                <!-- Post title goes in these h1 tags -->
-                <h1 class="post-title">{{ post.title }}</h1>
-                <!-- Post author goes before the | the post's created date goes after -->
-                <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
-            </div>
-            <div class="d-none d-md-block col-md-6 masthead-image">
+            <div class="col-md-4">
                 <!-- The featured image URL goes in the src attribute -->
                 {% if "placeholder" in post.featured_image.url %}
                 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" width="100%">
                 {% else %}
                 <img src=" {{ post.featured_image.url }}" width="100%">
                 {% endif %}
+                <div class="card-img-overlay">
+                <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h4 class="card-title">{{ post.title }}</h4>
+                <p class="card-text">{{ post.content | safe }}</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
             </div>
         </div>
     </div>
 </div>
-
 {% endblock content %}
