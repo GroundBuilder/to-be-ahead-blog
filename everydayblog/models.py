@@ -31,5 +31,10 @@ class Comment(models.Model):     # Django db queries
         return self.name
 
 
+class Profile(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE) # Delete profile when user is deleted
+    image = models.ImageField(default='default.jpg', upload_to='profile_pics')
 
+    def __str__(self):
+        return f'{self.user.username} Profile' #show how we want it to be displayed
 # Create your models here.

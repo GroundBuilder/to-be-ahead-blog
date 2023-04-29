@@ -213,6 +213,7 @@ to copy the URL
 * [W3Schools - Python](https://www.w3schools.com/python/)
 * [Stack Overflow](https://stackoverflow.com/)
 * [Django](https://docs.djangoproject.com/en/4.2/)
+* [Dev](https://www.devhandbook.com/django/user-profile/)
 
 ## Special Thanks
 
@@ -240,7 +241,8 @@ pip3 install django-allauth <br>
 pip3 install django-crispy-forms <br>
 pip3 install django-summernote <br>
 pip3 install django-allauth <br>
-pip install crispy-bootstrap5
+pip install crispy-bootstrap5 <br>
+pip3 install Pillow <br>
 
 pip3 freeze > requirements.txt <br>
 

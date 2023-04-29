@@ -155,6 +155,7 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATOC_ROOT = os.path.join(BASE_DIR, 'staticfiles') # Not for use now.
 
 MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # Directory where uploaded media is saved.
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 # Default primary key field type
