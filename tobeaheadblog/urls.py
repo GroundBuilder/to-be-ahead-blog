@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from users import views as user_views
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -23,7 +24,7 @@ urlpatterns = [
     path('sommernote/', include('django_summernote.urls')),
     path('', include('everydayblog.urls'), name='everydayblog_urls'),
     path("accounts/", include("allauth.urls")),
-    path('profile/', user_views.profile, name='profile'),
+    # path('profile/', user_views.profile, name='profile'),
 ]
 
 if settings.DEBUG:

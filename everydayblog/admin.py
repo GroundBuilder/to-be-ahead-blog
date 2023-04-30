@@ -20,11 +20,10 @@ class PostAdmin(SummernoteModelAdmin):
 
 @admin.register(Comment)
 class CommentAdmin(admin.ModelAdmin):
-    summernote_fields = ('body')
+    # summernote_fields = ('body')
     list_display = ('name', 'body', 'post', 'created_on', 'approved')
     list_filter = ('approved', 'created_on')
     search_fields = ('name', 'body')
-
     actions = ['approve_blog_public']
 
     def approve_blog_public(self, request, queryset):
