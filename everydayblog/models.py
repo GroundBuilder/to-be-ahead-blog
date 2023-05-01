@@ -6,6 +6,7 @@ from cloudinary.models import CloudinaryField
 STATUS_CHOICES = (('d', 'Draft'), ('p', 'Published'), ('r', 'Public request'), ('o', 'Public'))  # 'd' and 'p' is for user in blog, 'r' is for user if they whant it to be public. 'o' for admin to decide to be plublic.
 CATEGORY_CHOICES = ((0, 'BOL'), (1, 'EDC'), (2, 'Outher'))
 
+
 class Post(models.Model):    # Django db queries
     title = models.CharField(max_length=220, unique=True)
     slug = models.SlugField(max_length=200, unique=True)
@@ -18,8 +19,6 @@ class Post(models.Model):    # Django db queries
     category = models.IntegerField(choices=CATEGORY_CHOICES, default=2)
     updated_on = models.DateTimeField(auto_now=True)
 
-    
-
     def __str__(self):
         return self.title
 
@@ -28,7 +27,7 @@ class Comment(models.Model):     # Django db queries
     post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='comment')
     body = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
-    name =  models.CharField(max_length=50)
+    name = models.CharField(max_length=50)
     approved = models.BooleanField(default=False)
 
     def __str__(self):
@@ -36,9 +35,9 @@ class Comment(models.Model):     # Django db queries
 
 
 class Profile(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE) # Delete profile when user is deleted
+    user = models.OneToOneField(User, on_delete=models.CASCADE)  # Delete profile when user is deleted
     image = models.ImageField(default='default.jpg', upload_to='profile_pics')
 
     def __str__(self):
-        return f'{self.user.username} Profile' #show how we want it to be displayed
+        return f'{self.user.username} Profile'  # show how we want it to be displayed
 # Create your models here.

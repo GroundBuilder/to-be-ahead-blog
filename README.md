@@ -108,7 +108,7 @@ delete the following ones:
    Database used through heroku.
 * [CodeAnywhere](https://apps.codeanywhere.com/)<br>
    VSCode was used to create and edit the website
-* [PEP8](http://pep8online.com/)<br>
+* [PEP8ci](https://pep8ci.herokuapp.com/)<br>
    PEP8 was used to validate all the Python code
 * [W3C - HTML](https://validator.w3.org/)<br>
    W3C- HTML was used to validate all the HTML code
