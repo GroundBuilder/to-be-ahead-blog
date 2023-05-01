@@ -95,15 +95,13 @@ delete the following ones:
    Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub
 * [Bootstrap](https://getbootstrap.com/)<br>
    Was used to style the website, add responsiveness and interactivity
-* [Jquery](https://jquery.com/)<br>
-   All the scripts were written using jquery library
 * [GitHub](https://github.com/)<br>
    GitHub is used to store the project's code after being pushed from Git
 * [Heroku](https://id.heroku.com)<br>
    Heroku was used to deploy the live project
 * [ElephantSQL](https://customer.elephantsql.com/login/)<br>
    Database used through heroku.
-* [VSCode](https://code.visualstudio.com/)<br>
+* [CodeAnywhere](https://apps.codeanywhere.com/)<br>
    VSCode was used to create and edit the website
 * [PEP8](http://pep8online.com/)<br>
    PEP8 was used to validate all the Python code
@@ -115,17 +113,17 @@ delete the following ones:
    To add icons to the website
 * [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/)<br>
    To check App responsiveness and debugging
-* [Google Fonts](https://fonts.google.com/)<br>
+* [Google Fonts](https://fonts.google.com/) **Not used now.**<br>
    To add the 2 fonts that were used throughout the project
 * [Balsamiq](https://balsamiq.com/)<br>
-   To build the wireframes for the project
+   To build the wireframes overlay for the project
 * [PIXLR](https://pixlr.com)<br>
    To convert the images to webp format
-* [CANVA](https://www.canva.com/)<br>
+* [CANVA](https://www.canva.com/) **Not used now.**<br>
    To build the logos for the project
 * [Coolors](https://coolors.co/)<br>
    To build the colour palette of the project
-* [Emailjs](https://www.emailjs.com/)<br>
+* [Emailjs](https://www.emailjs.com/) **Not used now.**<br> 
    To send emails from the contact form
 
 ### Testing
