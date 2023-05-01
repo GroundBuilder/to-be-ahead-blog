@@ -14,11 +14,15 @@
                 <div class="card-img-overlay">
                 <p class="post-subtitle">{{ post.author }} | {{ post.created_on }}</p>
                 </div>
-            </div>
             <div class="col-md-8">
                 <div class="card-body">
                     <h4 class="card-title">{{ post.title }}</h4>
                     <p class="card-text">{{ post.content | safe }}</p>
+                </div>
+            </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
                     <p class="card-text"><small class="text-body-secondary">Last update: {{ post.updated_on }}</small></p>
                 </div>
             </div>
@@ -41,7 +45,7 @@
                     {% endif %}
                     {% endif %}
                 </div>
-            </div>
+            </div>            
         </div>
     </div>
 </div>
