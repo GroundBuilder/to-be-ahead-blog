@@ -6,6 +6,8 @@ like/unlike a post and comment on a post. They can also flag if they whant their
 
 [Live Project Here](https://to-be-ahead-blog.herokuapp.com/)
 
+![MockUp](docs/readme_images/mockup-tobeaheadblog.png)<br>
+
 README Table Content
 
 - [To Be Ahead - Introduction](#to-be-ahead-blog---introduction)
@@ -37,6 +39,9 @@ README Table Content
 
 ## User Experience - UX
 
+![UX - Project](docs/readme_images/ux-design1.png)<br>
+
+![UX - Issues](docs/readme_images/ux-design2.png)<br>
 
 ## Design
 
