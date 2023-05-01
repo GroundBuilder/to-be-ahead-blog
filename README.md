@@ -50,7 +50,7 @@ README Table Content
 
 
 ## Admin Panel/Superuser
-![No Search Found](./assets/image.jpg)
+![No Search Found](docs/readme_images/admin_30.png)
 
 * On the Admin Panel, as an admin/superuser I have full access to CRUD functionality so I can view, create, edit and
 delete the following ones:
