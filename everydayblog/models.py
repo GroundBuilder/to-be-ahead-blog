@@ -4,6 +4,7 @@ from cloudinary.models import CloudinaryField
 
 
 STATUS_CHOICES = (('d', 'Draft'), ('p', 'Published'), ('r', 'Public request'), ('o', 'Public'))  # 'd' and 'p' is for user in blog, 'r' is for user if they whant it to be public. 'o' for admin to decide to be plublic.
+CATEGORY_CHOICES = ((0, 'BOL'), (1, 'EDC'), (2, 'Outher'))
 
 class Post(models.Model):    # Django db queries
     title = models.CharField(max_length=220, unique=True)
@@ -14,6 +15,9 @@ class Post(models.Model):    # Django db queries
     content = models.TextField()
     status = models.CharField(max_length=1, choices=STATUS_CHOICES, default='d')
     approved = models.BooleanField(default=False)
+    category = models.IntegerField(choices=CATEGORY_CHOICES, default=2)
+    updated_on = models.DateTimeField(auto_now=True)
+
     
 
     def __str__(self):

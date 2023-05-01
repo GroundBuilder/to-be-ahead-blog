@@ -10,6 +10,14 @@ h1, h2 {
     text-transform: uppercase;
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
 
 /*** Hero Placeholder ***/
 #hero-container{

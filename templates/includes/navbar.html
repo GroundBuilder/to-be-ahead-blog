@@ -1,5 +1,5 @@
 {% load static %}
-<nav>
+<nav class="navbar">
     <div class="container-fluid">
         <a href="#"><h2><span>To Be Ahead Blog</span></h2></a>
         <div>
@@ -22,5 +22,9 @@
             
             </ul>
         </div>
+        {% if user.is_authenticated %}
+        Logged in as: {{ user.get_username }}
+
+        {% endif %}
     </div>
 </nav>
