@@ -29,8 +29,6 @@
             <div class="card">
                 <div class="card-body">
                     {% if commented %}
-
-                    {% if commented %}
                     <div class="alert alert-success" role="alert">
                         Your comment is awaiting approval
                     </div>
@@ -46,7 +44,17 @@
                     </form>
                     {% endif %}
                     {% endif %}
-                    {% endif %}
+                    
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <p class="card-text"><h3>Comments:</h3></p>
+                    {% for comment in comments %}
+                    {{ comment.created_on }}
+                    {{ comment.name }}
+                    {{ comment.body | linebreaks }}
+                    {% endfor %}
                 </div>
             </div>            
         </div>
