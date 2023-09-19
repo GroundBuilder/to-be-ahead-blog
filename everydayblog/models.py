@@ -24,7 +24,7 @@ class Post(models.Model):    # Django db queries
 
 
 class Comment(models.Model):     # Django db queries
-    post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='comment')
+    post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='comments')
     body = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
     name = models.CharField(max_length=50)
