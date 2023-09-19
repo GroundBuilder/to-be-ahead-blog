@@ -29,6 +29,8 @@
             <div class="card">
                 <div class="card-body">
                     {% if commented %}
+
+                    {% if commented %}
                     <div class="alert alert-success" role="alert">
                         Your comment is awaiting approval
                     </div>
@@ -42,6 +44,7 @@
                         {% csrf_token %}
                         <button class="btn primaryAction" type="submit">Submit</button>
                     </form>
+                    {% endif %}
                     {% endif %}
                     {% endif %}
                 </div>
