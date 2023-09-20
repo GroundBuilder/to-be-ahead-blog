@@ -51,3 +51,4 @@ class Profile(models.Model):
     def __str__(self):
         # show how we want it to be displayed
         return f'{self.user.username} Profile'
+        

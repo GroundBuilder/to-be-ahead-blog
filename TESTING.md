@@ -17,8 +17,12 @@ It's not a fully html-page.
 ![Lighthouse](docs/readme_images/ligthhouse.png)<br>
 
 ## PEP8 CI Python Linter - Validator
-I tested my Python code and there are no errors. There were E501, cause it's comments on the code in the same line. https://pep8ci.herokuapp.com/
+I tested my Python code and there are no errors. There were E501, cause it's code is to long. https://pep8ci.herokuapp.com/
 
 ![manage.py](docs/readme_images/managepy.png)<br>
 
 ![models.py](docs/readme_images/modelspy.png)<br>
+
+![admin.py](docs/readme_images/adminpy.png)<br>
+
+![settings.py](docs/readme_images/settingspy.png)<br>
