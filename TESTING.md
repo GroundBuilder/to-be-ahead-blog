@@ -10,7 +10,7 @@ Back to the [README](README.md)
 
 ## W3C - HTML Validation
 
-It's not a fully html-page.
+It's not a fully html-page. Next time, rightclick on each deployed site and click "insepkt", then you will get the clean HTML code.
 
 ## Lighthouse
 
