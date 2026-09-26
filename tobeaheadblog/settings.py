@@ -32,7 +32,7 @@ DEBUG = False
 
 # Toggle this one below when deploy and go to
 # Heroku and delete the DISABLE_COLLECTSTATIC = 1 in Vars.
-# X_FRAME_OPTIONS = 'SAMEORIGIN'
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 ALLOWED_HOSTS = ['to-be-ahead-blog.herokuapp.com', '127.0.0.1', 'https://8000-groundbuild-tobeaheadbl-m5vte7hswbd.ws-eu101.gitpod.io/', '8000-groundbuild-tobeaheadbl-m5vte7hswbd.ws-eu101.gitpod.io', 'localhost', 'http://127.0.0.1:8000/*', 'https://8000-groundbuild-tobeaheadbl-j166cfn61ps.ws-eu104.gitpod.io/', '8000-groundbuild-tobeaheadbl-j166cfn61ps.ws-eu104.gitpod.io', '.herokuapp.com']
 
