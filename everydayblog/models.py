@@ -2,14 +2,11 @@ from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
 
-# 'd' and 'p' is for user in blog,
-# 'r' is for user if they whant it to be public.
-# 'o' for admin to decide to be plublic.
+# Only admin can change comments from draft to published
 STATUS_CHOICES = (
     ('d', 'Draft'),
-    ('p', 'Published'),
-    ('r', 'Public request'),
-    ('o', 'Public'))
+    ('p', 'Published'))
+
 CATEGORY_CHOICES = ((0, 'BOL'), (1, 'EDC'), (2, 'Outher'))
 
 
