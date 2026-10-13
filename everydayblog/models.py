@@ -20,7 +20,7 @@ class Post(models.Model):    # Django db queries
     content = models.TextField()
     status = models.CharField(
         max_length=1, choices=STATUS_CHOICES, default='d')
-    approved = models.BooleanField(default=False)
+    approved = models.BooleanField(default=True)
     category = models.IntegerField(choices=CATEGORY_CHOICES, default=2)
     updated_on = models.DateTimeField(auto_now=True)
 
