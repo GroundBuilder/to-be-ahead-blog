@@ -1,0 +1,72 @@
+/*** Customize color bootstrap ***/
+:root{
+    --col-main: #bbd8ba;
+    --col-main: #7b897a;
+}
+
+/*** End Customize ***/
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/*** Hero Placeholder ***/
+#hero-container{
+    height: 40vh;
+    background-image: url("https://groundbuilder.github.io/to-be-ahead/assets/images/background-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.hero-text {
+    background-color: rgba(241, 109, 107, .7);
+    position: absolute;
+    height: 15vh;
+    width: fit-content;
+    inset: 0;
+    /* padding-top: 40px;
+    padding-left: 10px; */
+    padding: 30px;
+    margin: auto;
+    letter-spacing: 4px;
+
+}
+
+
+#cover-text {
+    font-size: 130%;
+    font-family: Dosis, sans-serif;
+    letter-spacing: 4px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+}
+
+
+/*** End Hero Placeholder ***/
+
+body {
+    background-color: #bbd8ba;
+}
+
+/*** Footer ***/
+.footer {
+    background-color: #7b897a;
+    padding: 0.5rem;
+    color: #fff;
+}
